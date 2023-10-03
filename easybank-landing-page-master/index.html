@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&family=Kumbh+Sans:wght@400;500;600;700&family=League+Spartan:wght@400;500;600;700&family=Nunito+Sans:ital,wght@0,400;0,500;0,700;1,600&family=Open+Sans:ital,wght@0,400;0,500;0,600;1,700&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,600&family=Public+Sans:wght@400;500;600;700;800&family=Roboto:wght@500;700&family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="general.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="queries.css" />
+
+    <title>EasyBank</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="main__nav">
+        <img class="logo" src="images/logo.svg" alt="Logo" />
+        <ul class="nav__links">
+          <li><a class="nav__link" href="#">Features</a></li>
+          <li><a class="nav__link" href="#">Operations</a></li>
+          <li><a class="nav__link" href="#">Testimonials</a></li>
+          <li><a class="nav__link" href="#">Login</a></li>
+          <a class="cta__link" href="#/">Open account</a>
+        </ul>
+        <button class="btn__nav btn__nav--open">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="11">
+            <g fill="#2D314D" fill-rule="evenodd">
+              <path d="M0 0h24v1H0zM0 5h24v1H0zM0 10h24v1H0z" />
+            </g>
+          </svg>
+        </button>
+        <button class="btn__nav btn__nav--close">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="19">
+            <g fill="#2D314D" fill-rule="evenodd">
+              <path d="M.868.661l16.97 16.97-.706.708L.162 1.369z" />
+              <path d="M.161 17.632L17.131.662l.708.706-16.97 16.97z" />
+            </g>
+          </svg>
+        </button>
+      </nav>
+      <div class="header__intro container">
+        <div class="intro__content">
+          <h1 class="heading__primary">Elevating your banking experience</h1>
+          <p class="heading__description paragraph">
+            Take your financial life online. Your Easybank account will be a
+            one-stop-shop for spending, saving, budgeting, investing, and much
+            more.
+          </p>
+          <a class="cta__link" href="#">Get started</a>
+        </div>
+        <div class="intro__img--box">
+          <img
+            class="bg--img"
+            src="images/bg-intro-desktop.svg"
+            alt="Backgrounds"
+          />
+          <!-- <img class="app" src="images/image-mockups.png" alt="Banking apps" /> -->
+        </div>
+      </div>
+    </header>
+
+    <section class="section__features">
+      <div class="container">
+        <div class="section__title">
+          <h4 class="section__description">Features</h4>
+          <h2 class="section__heading">
+            Everything you need in a modern bank and more.
+          </h2>
+        </div>
+        <div class="features__container">
+          <img
+            class="feature__img lazy--img"
+            src="images/digital-lazy.jpg"
+            data-src="images/digital_bank.jpg"
+            alt=""
+          />
+          <div class="feature__content">
+            <img class="feature__icon" src="images/icon-api.svg" alt="" />
+            <h5 class="feature__heading">100% online banking</h5>
+            <p class="feature__text paragraph">
+              Our modern web and mobile applications allow you to keep track of
+              your finances wherever you are in the world.
+            </p>
+          </div>
+          <div class="feature__content">
+            <img
+              class="feature__icon"
+              src="images/icon-onboarding.svg"
+              alt=""
+            />
+            <h5 class="feature__heading">Watch your money grow</h5>
+            <p class="feature__text paragraph">
+              We leverage Open Banking to turn your bank account into your
+              financial hub. Control your finances like never before.
+            </p>
+          </div>
+          <img
+            class="feature__img lazy--img"
+            src="images/grow-lazy.jpg"
+            data-src="images/grow.jpg"
+            alt=""
+          />
+          <img
+            class="feature__img lazy--img"
+            src="images/card-lazy.jpg"
+            data-src="images/card.jpg"
+            alt=""
+          />
+          <div class="feature__content">
+            <img class="feature__icon" src="images/icon-online.svg" alt="" />
+            <h5 class="feature__heading">Free debit card included</h5>
+            <p class="feature__text paragraph">
+              Manage your savings, investments, pension, and much more from one
+              account. Tracking your money has never been easier.
+            </p>
+          </div>
+
+          <div class="feature__content">
+            <img class="feature__icon" src="images/icon-budgeting.svg" alt="" />
+            <h5 class="feature__heading">Unbeatable Mobile Experience</h5>
+            <p class="feature__text paragraph">
+              Unlock a world of limitless possibilities with our revolutionary
+              mobile app, engineered to withstand any challenge and provide an
+              unrivaled user experience that exceeds your wildest expectations.
+            </p>
+          </div>
+          <div class="mobile__img--box">
+            <img
+              class="feature__img apps"
+              src="images/image-mockups.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__operations">
+      <div class="container">
+        <div class="section__title">
+          <h4 class="section__description">operations</h4>
+          <h2 class="section__heading">
+            Why choose <strong>easybank</strong>?
+          </h2>
+        </div>
+        <div class="operations__container">
+          <div class="operations__tabs">
+            <button
+              class="operations__tab operations__tab--active"
+              data-tab="1"
+            >
+              <strong>01</strong> instant transfers
+            </button>
+            <button class="operations__tab" data-tab="2">
+              <strong>02</strong> instant loans
+            </button>
+            <button class="operations__tab" data-tab="3">
+              <strong>03</strong> instant closing
+            </button>
+          </div>
+          <div
+            class="operations__content operations__content--1 operations__content--active"
+          >
+            <img src="images/icon-online.svg" alt="" />
+            <h3 class="operations__heading">
+              Access funds in any currency without incurring any fees.
+            </h3>
+            <p class="operations__text paragraph">
+              Experience the freedom of fee-free international money transfers
+              with easyBank. Say goodbye to hidden fees and complicated currency
+              conversions. With our seamless service, competitive exchange
+              rates, and commitment to transparency, SwiftCash Bank is your
+              trusted partner for effortless cross-border transactions. …
+            </p>
+          </div>
+          <div class="operations__content operations__content--2">
+            <img src="images/icon-budgeting.svg" alt="" />
+            <h3 class="operations__heading">
+              Turn your aspirations into a reality with the power of instant
+              loans.
+            </h3>
+            <p class="operations__text paragraph">
+              Experience the power of easyBank's Instant Loans today and unlock
+              a world of financial possibilities at your fingertips. Join the
+              thousands of satisfied customers who have chosen SwiftCash Bank as
+              their trusted partner in their financial journey. Apply now and
+              take control of your financial future!...
+            </p>
+          </div>
+          <div class="operations__content operations__content--3">
+            <img src="images/icon-api.svg" alt="" />
+            <h3 class="operations__heading">
+              Looking to part ways with your account? easyBank close it in an
+              instant.
+            </h3>
+            <p class="operations__text paragraph">
+              With our instant account closure service, you can rest assured
+              that your account will be closed promptly, without any lengthy
+              waiting periods. Experience the freedom of closing your account on
+              your own terms and timeline..…
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__testimonials">
+      <div class="container">
+        <div class="section__title">
+          <h4 class="section__description">Not sure yet?</h4>
+          <h2 class="section__heading">
+            Millions of Bankists have chosen a simpler path to enhance their
+            daily lives.
+          </h2>
+        </div>
+        <div class="slider">
+          <div class="slide">
+            <div class="testimonial">
+              <h5 class="testimonial__heading">
+                Streamlined and Convenient Banking Experience!
+              </h5>
+              <blockquote class="testimonial__text paragraph">
+                This bank has made banking a breeze with their streamlined and
+                convenient services. Whether it's easy online account access,
+                quick loan approvals, or efficient bill payments, they have
+                simplified my financial life. I couldn't ask for a more
+                convenient banking experience and I can rely on them as a
+                dependable banking partner.
+              </blockquote>
+              <address class="testimonial__author">
+                <img
+                  class="testimonial__author--img"
+                  src="images/user-2.jpg"
+                  alt="cutsomer"
+                />
+                <h5 class="testimonial__author--name">Matilda Whitey</h5>
+                <p class="testimonial__author--location paragraph">
+                  Manchester, England
+                </p>
+              </address>
+            </div>
+          </div>
+          <div class="slide">
+            <div class="testimonial">
+              <h5 class="testimonial__heading">
+                Best financial decision ever!
+              </h5>
+              <blockquote class="testimonial__text paragraph">
+                Choosing EasyBank as my financial partner has been a
+                life-changing decision. Their expert guidance, robust product
+                offerings, cutting-edge technology, and customer-centric
+                approach have exceeded my expectations. I highly recommend
+                easyBank to anyone seeking financial stability, growth, and a
+                brighter future. Trust me, it will be the best financial
+                decision you'll ever make!
+              </blockquote>
+              <address class="testimonial__author">
+                <img
+                  class="testimonial__author--img"
+                  src="images/user-3.jpg"
+                  alt="cutsomer"
+                />
+                <h5 class="testimonial__author--name">Aarav Lynn</h5>
+                <p class="testimonial__author--location paragraph">
+                  San Franisco, Germany
+                </p>
+              </address>
+            </div>
+          </div>
+          <div class="slide">
+            <div class="testimonial">
+              <h5 class="testimonial__heading">
+                A Bank that Puts Customers First!
+              </h5>
+              <blockquote class="testimonial__text paragraph">
+                This bank prioritizes its customers above all else. They listen
+                to feedback, make improvements based on customer needs, and
+                constantly strive to enhance the banking experience. It's
+                refreshing to be with a bank that places customers at the
+                forefront. Experience the difference for yourself and become
+                part of a bank that puts you first!
+              </blockquote>
+              <address class="testimonial__author">
+                <img
+                  class="testimonial__author--img"
+                  src="images/user-1.jpg"
+                  alt="cutsomer"
+                />
+                <h5 class="testimonial__author--name">Gabriel liccus</h5>
+                <p class="testimonial__author--location paragraph">
+                  Sau paulo, Barzil
+                </p>
+              </address>
+            </div>
+          </div>
+          <button class="btn__slide btn__slide--prev">&larr;</button>
+          <button class="btn__slide btn__slide--next">&rarr;</button>
+          <div class="dots__container"></div>
+          <!-- <button class="dot dot__active"></button
+          ><button class="dot"></button><button class="dot"></button> -->
+        </div>
+      </div>
+    </section>
+
+    <section class="section__sign-up">
+      <div class="container">
+        <div class="section__title">
+          <h3 class="section__heading">
+            The best day to join
+            <img class="sign-up__logo" src="images/footer-logo.svg" alt="" />
+            was one year ago, and the next best opportunity is today!
+          </h3>
+        </div>
+        <a class="cta__link sign-up__link" href="#/"
+          >Open your account today!</a
+        >
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="socials">
+          <img class="footer__logo" src="images/footer-logo.svg" alt="logo" />
+          <div class="social__links">
+            <a class="social__link" href="#">
+              <img
+                class="social__icon"
+                src="images/icon-facebook.svg"
+                alt="facebook logo"
+              />
+            </a>
+            <a class="social__link" href="#">
+              <img
+                class="social__icon"
+                src="images/icon-youtube.svg"
+                alt="youtube logo"
+              />
+            </a>
+            <a class="social__link" href="#">
+              <img
+                class="social__icon"
+                src="images/icon-twitter.svg"
+                alt="twitter logo"
+              />
+            </a>
+            <a class="social__link" href="#">
+              <img
+                class="social__icon"
+                src="images/icon-pinterest.svg"
+                alt="pinterest logo"
+              />
+            </a>
+            <a class="social__link" href="#">
+              <img
+                class="social__icon"
+                src="images/icon-instagram.svg"
+                alt="instagram logo"
+              />
+            </a>
+            <a class="social__link" href="#">
+              <img
+                class="social__icon"
+                src="images/icon-facebook.svg"
+                alt="facebook logo"
+              />
+            </a>
+          </div>
+        </div>
+        <ul class="footer__links">
+          <li><a class="footer__link" href="#">About Us</a></li>
+          <li><a class="footer__link" href="#">Contact</a></li>
+          <li><a class="footer__link" href="#">Blog</a></li>
+        </ul>
+        <ul class="footer__links">
+          <li><a class="footer__link" href="#">Careers</a></li>
+          <li><a class="footer__link" href="#">Support</a></li>
+          <li><a class="footer__link" href="#">Privacy Policy</a></li>
+        </ul>
+        <div class="footer__cta">
+          <a class="cta__link" href="#">Request invite</a>
+          <p class="copyright__text">© Easybank. All Rights Reserved</p>
+        </div>
+      </div>
+    </footer>
+
+    <div class="modal">
+      <button class="btn__close-modal">x</button>
+      <h2 class="modal__header">
+        Open your bank account in just
+        <span class="highlight">3&nbsp;minutes</span>
+      </h2>
+      <form class="modal__form">
+        <label for="firstname">First Name</label>
+        <input type="text" name="firstname" spellcheck="false" />
+        <label for="lastName">Last Name</label>
+        <input type="text" name="lastName" spellcheck="false" />
+        <label for="email">Email Address</label>
+        <input type="email" name="email" spellcheck="false" />
+        <button class="btn__next-step">Next Step &rarr;</button>
+      </form>
+    </div>
+
+    <div class="modal__cookie hide">
+      <div class="cookie">
+        <h2 class="cookie__heading">We Value Your Privacy!</h2>
+        <p class="cookie__text">
+          We use cookies to enhance your browsing experience on our website.
+          Cookies are small text files that are placed on your device when you
+          visit a website. They help us analyze how you interact with our site
+          and enable certain features, such as remembering your preferences.
+        </p>
+        <button class="btn__cookie btn__accept">Yes, I accept</button
+        ><button class="btn__cookie btn__decline">No, i decline</button>
+        <button class="btn__close--cookie">
+          <svg
+            class="icon-close"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            class="w-6 h-6"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M5.47 5.47a.75.75 0 011.06 0L12 10.94l5.47-5.47a.75.75 0 111.06 1.06L13.06 12l5.47 5.47a.75.75 0 11-1.06 1.06L12 13.06l-5.47 5.47a.75.75 0 01-1.06-1.06L10.94 12 5.47 6.53a.75.75 0 010-1.06z"
+              clip-rule="evenodd"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <div class="overlay"></div>
+
+  </body>
+  <script src="script.js"></script>
+</html>
